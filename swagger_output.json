@@ -1,0 +1,27 @@
+{
+  "swagger": "1.0",
+  "info": {
+    "title": "Title API",
+    "description": "Exemplo de descrição.",
+    "version": "1.0.0"
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "securityDefinitions": {
+    "bearerAuth": {
+      "type": "apiKey",
+      "name": "authorization",
+      "in": "header"
+    }
+  },
+  "paths": {},
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ]
+}
